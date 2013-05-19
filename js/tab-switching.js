@@ -7,8 +7,7 @@
     };
     var o = jQuery.extend(OrginalOptions, options);
     var swclick = $(this);
-    function main_lisShowPrivilegePanel($this) { 
-      $this.addClass('active').attr("status", "show").siblings().removeClass('active').attr("status", "hide");
+    function main_lisShowPrivilegePanel($this) { tus", "show").siblings().removeClass('active').attr("status", "hide");
     }
     function main_lisHidePrivilegePanel($this) {
       $this.removeClass('active').attr("status", "hide");
