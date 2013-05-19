@@ -3,7 +3,7 @@
   //swclick function
   $.fn.swclick=function(options){
     OrginalOptions = {
-      target: 'li',
+      target: 'li'
     };
     var o = jQuery.extend(OrginalOptions, options);
     var swclick = $(this);
@@ -35,10 +35,10 @@
         var nowNum = $(this).attr('num');
         blocks.hide();
         blocks.eq( nowNum - 1 ).show();
-      })
+      });
       a += 1;
-    })
-  } 
+    });
+  } ;
 
 })(jQuery); 
 
